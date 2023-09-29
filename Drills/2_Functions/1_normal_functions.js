@@ -24,3 +24,13 @@ function personName(person){
     console.log(person)
 }
 personName(person)
+
+//2.2 Return function value and concatenate with a string
+
+function printName(person){
+    return person
+}
+
+let myName = printName("Arif Iqbal")
+
+console.log(`Hello I am ${myName} !`)
