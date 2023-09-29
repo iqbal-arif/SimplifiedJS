@@ -38,7 +38,7 @@ console.log(`Hello I am ${myName} !`)
 // 2.2 Teacher Way
 
 function sayHitoMe(name){
-    return "Hello" + name
+    return "Hello " + name
 }
 
 let result = sayHitoMe("Kyle")
