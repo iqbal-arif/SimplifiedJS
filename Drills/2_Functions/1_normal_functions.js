@@ -23,4 +23,4 @@ let person  = "Arif Iqbal"
 function personName(person){
     console.log(person)
 }
-personName()
+personName(person)
