@@ -29,7 +29,7 @@ sumCallback(1,2,handleSum)
 // Function that prints "Hello Kyle" after calling greeting function with name variable
 
 function greetingYou(name, myGreetings){
-    myGreetings(name)
+    myGreetings(`Hello ${name}`)
 }
 
 function hello(myGreetings){
