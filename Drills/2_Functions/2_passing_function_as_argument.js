@@ -25,3 +25,15 @@ function handleSum(sum){
 }
 
 sumCallback(1,2,handleSum)
+
+// Function that prints "Hello Kyle" after calling greeting function with name variable
+
+function greetingYou(name, myGreetings){
+    myGreetings(name)
+}
+
+function hello(myGreetings){
+    console.log(myGreetings)
+}
+
+greetingYou("Kyle", hello)
