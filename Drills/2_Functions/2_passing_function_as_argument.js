@@ -56,3 +56,24 @@ printGreeting("Master Kyle", printGreeting)
 printGreeting("This is Kyle again", function(variable){
     console.log(variable)
 })
+
+// Re-iterating with another example
+
+function printName(name, callback) {
+    callback("hello " + name);
+} 
+printName("Robert", function (variable) {
+    console.log(variable);
+} );
+
+// The best way to understand what is going on when you call a function is to map each argument to its value. In this case the argument name is set to the value "Robert" since you call printName and pass "Robert" as the first value. The callback argument is then set to the function you define as the second argument to printName. This means when you call printName it will call the callback function (which in our case is just the function you passed to printName) and it will pass that function the text "hello " + name which in our case is just "hello Robert" since name is set to the value of Robert.
+
+// This mapping is really easy to do if you just manually set the arguments of your function to the values you are calling the function with. As you can see I just took what we passed to printName and manually set the variables to those values so it is really easy to see exactly what is getting passed to each argument.
+function printName() {
+  const name = "Robert"
+  const callback = function (variable) {
+    console.log(variable)
+  }
+  
+  callback("hello " + name)
+}
