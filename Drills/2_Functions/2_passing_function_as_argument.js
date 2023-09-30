@@ -53,6 +53,6 @@ printGreeting("Master Kyle", printGreeting)
 
 // Re-writing the above code
 
-printGreeting("This Kyle again", function(variable){
+printGreeting("This is Kyle again", function(variable){
     console.log(variable)
 })
