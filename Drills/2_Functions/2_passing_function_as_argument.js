@@ -37,3 +37,16 @@ function hello(myGreetings){
 }
 
 greetingYou("Kyle", hello)
+
+// Teacher Solution
+
+function printGreeting(greeting){
+    console.log(greeting)
+}
+
+function printName(name, callback){
+    // using callback to print Hello with name
+    callback("hello " + name)
+}
+
+printGreeting("Master Kyle", printGreeting)
