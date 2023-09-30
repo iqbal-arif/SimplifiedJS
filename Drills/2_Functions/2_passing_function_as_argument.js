@@ -1,3 +1,7 @@
 // 1. Passing function as an Argument
 
-function printVa
+function printVariable(variable){
+    console.log(variable)
+}
+
+console.log(printVariable)
