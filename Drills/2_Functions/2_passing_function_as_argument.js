@@ -13,3 +13,15 @@ function func(x){
 
 // Calling the func with other function as a variable
 func(printVariable)
+
+// Calling callback function of sumCallback() wth the result of a, b
+
+function sumCallback(a,b, callback){
+    callback(a+b)
+}
+
+function handleSum(sum){
+    console.log(sum)
+}
+
+sumCallback(1,2)
