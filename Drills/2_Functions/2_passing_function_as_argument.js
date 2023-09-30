@@ -24,4 +24,4 @@ function handleSum(sum){
     console.log(sum)
 }
 
-sumCallback(1,2,callback)
+sumCallback(1,2,handleSum)
