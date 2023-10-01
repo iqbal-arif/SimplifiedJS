@@ -92,7 +92,7 @@ let print = (printStuff) => console.log(printStuff)
 let sum = (a,b) => a + b
 
 // Greeting function
-let hi = (name) => `Hi ${name}`
+let sayHi = (name) => `Hi ${name}`
 
 // Invokig a function
 doStuff(3,3, "JavaScript")
