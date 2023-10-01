@@ -14,3 +14,7 @@ console.log(sumArrow(1,2))
 
 let printName = (name) => { return(name)}
 console.log(printName("Arif"))
+
+// 2. Arrow Function one liner
+ let printHi = (name) => `Hi ${name}`
+ console.log(printHi("JavaScript"))
