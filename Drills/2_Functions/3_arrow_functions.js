@@ -12,5 +12,5 @@ console.log(sumArrow(1,2))
 
 // 1. Print Name
 
-let printName = (name) => { console.log(name)}
+let printName = (name) => { return(name)}
 console.log(printName("Arif"))
