@@ -10,5 +10,5 @@ function sum (a,b){
 // Because arrow function is defined with variable
 // And variable are not hosited
 
-console.log(sum(1,2))
-let sum = (a,b) => a + b
+console.log(sumArrow(1,2))
+let sumArrow = (a,b) => a + b
