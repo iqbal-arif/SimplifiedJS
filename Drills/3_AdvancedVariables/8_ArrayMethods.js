@@ -11,3 +11,7 @@ const newA = a.map(element =>{
 })
 
 console.log(newA)
+
+// filter
+const filteredArray = a.filter(number => number > 2)
+console.log(filteredArray)
