@@ -9,4 +9,6 @@ function print (outerVar){
 }
 
 let a = print(1)
-a(2)
+a(4)
+console.log(a)
+console.log(print(1))
