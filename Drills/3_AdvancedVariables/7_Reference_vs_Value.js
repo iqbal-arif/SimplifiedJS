@@ -17,3 +17,12 @@ console.log("h = " + h) //displays as an object convert them with JSON.stringify
 console.log("h = " + JSON.stringify(h)) //converting to string with JSON.stringify()
 console.log("i = " + i)
 console.log("i = " + JSON.stringify(i))
+
+// Array comparison
+
+let arrayA = [1,2]
+let arrayB = [1,2]
+
+console.log(arrayA === arrayB)
+
+// Other example of Array referencing
