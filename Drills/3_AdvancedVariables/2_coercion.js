@@ -20,7 +20,7 @@ console.log(typeof parseFloat(a))
 // Number to String
 
 let c = 1.34
-console.log(typeof c.toString(c))
+console.log(typeof (c.toString()))
 
 // Imlicit Type Coercion
 
