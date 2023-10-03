@@ -29,3 +29,11 @@ console.log(isTrue)
 
 const isEveryTrue = a.every(number => number > 4)
 console.log(isEveryTrue)
+
+// reduce method
+
+const sumNumber = a.reduce((sum,number) => {
+    return sum + number
+},0)
+
+console.log(sumNumber)
