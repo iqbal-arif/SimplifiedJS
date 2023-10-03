@@ -15,3 +15,8 @@ console.log(newA)
 // filter
 const filteredArray = a.filter(number => number > 2)
 console.log(filteredArray)
+
+// find the first number in array
+const findNumberinArray = a.find(number => number > 2)
+
+console.log(findNumberinArray)
