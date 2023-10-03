@@ -37,3 +37,16 @@ const sumNumber = a.reduce((sum,number) => {
 },0)
 
 console.log(sumNumber)
+
+// Another examplex of reduce
+
+const items = [
+    {price:10},
+    {price:20},
+    {price:14},
+    {price:1},
+    {price:6},
+]
+
+const value = items.forEach(item => item)
+console.log(value)
