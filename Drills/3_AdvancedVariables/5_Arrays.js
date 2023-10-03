@@ -26,3 +26,7 @@ const x = [
 console.log(x[0][3])
 console.log(x[1][2])
 console.log(x[2][0])
+
+// Array Method
+b.length
+a.length
