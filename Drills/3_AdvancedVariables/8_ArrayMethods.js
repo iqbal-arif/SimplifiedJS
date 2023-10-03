@@ -48,5 +48,5 @@ const items = [
     {price:6},
 ]
 
-const value = items.forEach(item => item)
+const value = items.map(item => item)
 console.log(value)
