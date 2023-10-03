@@ -22,3 +22,13 @@ console.log(typeof parseFloat(a))
 let c = 1.34
 console.log(typeof c.toString(c))
 
+// Imlicit Type Coercion
+
+let d =1
+let e ="2"
+let f = "Hello"
+console.log(e+d)
+console.log(e-d)
+console.log(e+f)
+console.log(f-e)
+console.log(f-d)
