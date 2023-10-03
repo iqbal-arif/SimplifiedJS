@@ -27,4 +27,5 @@ let employee = {
     }
 }
 
-console.log(employee.address)
+console.log(employee.address.city)
+console.log(employee.hobbies[1])
