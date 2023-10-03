@@ -38,3 +38,10 @@ const book ={
         age: 27
     }
 }
+
+console.log(book)
+console.log(book.author.name)
+console.log(book)
+
+book.author.name ="Jordan"
+console.log(book.author.name)
