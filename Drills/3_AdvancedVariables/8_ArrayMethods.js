@@ -47,6 +47,11 @@ const items = [
     {price:1},
     {price:6},
 ]
+const itemTotal = items.forEach((element, index, array) => {
+	console.log(element.x);
+});
+
+console.log(itemTotal)
 
 const value = items.map(item => item)
 console.log(value)
