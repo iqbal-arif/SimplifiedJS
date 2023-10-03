@@ -20,3 +20,7 @@ console.log(filteredArray)
 const findNumberinArray = a.find(number => number > 2)
 
 console.log(findNumberinArray)
+
+// some method; at least one number must match to be true
+const isTrue = a.some(number => number > 3)
+console.log(isTrue)
