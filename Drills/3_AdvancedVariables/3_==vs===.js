@@ -18,3 +18,12 @@ f = undefined
 
 console.log(e==f) //true
 console.log(e===f) //false
+
+
+// another example of comparing null and undefined
+
+const x = undefined
+const y = "1"
+
+console.log(x !==null) // true
+console.log(x !== null) // false
