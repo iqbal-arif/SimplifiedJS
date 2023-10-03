@@ -24,3 +24,8 @@ console.log(findNumberinArray)
 // some method; at least one number must match to be true
 const isTrue = a.some(number => number > 3)
 console.log(isTrue)
+
+// every method; if all the number match to be true
+
+const isEveryTrue = a.every(number => number > 4)
+console.log(isEveryTrue)
