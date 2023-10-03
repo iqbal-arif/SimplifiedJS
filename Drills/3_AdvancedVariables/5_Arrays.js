@@ -6,10 +6,11 @@ console.log(a[9])
 a.push(11)
 
 console.log(a)
-a.push ("Hi")
+a.push("Hi")
+console.log(a)
 
 b = [["Hi", "Bye"],[1,2,3]]
-console.log(a[0][0])
+console.log(b[0][0])
 
 // Create an array with the first 5 letters of the alphabet and print c
 
