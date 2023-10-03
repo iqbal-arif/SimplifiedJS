@@ -26,3 +26,19 @@ let arrayB = [1,2]
 console.log(arrayA === arrayB)
 
 // Other example of Array referencing
+
+const aB = [1,2] //0X01
+const elemenToAdd = 3 // 3
+
+add(aB, elemenToAdd) // 0x01, 3
+
+console.log(aB)
+console.log(elemenToAdd)
+
+function add(array,element){
+    element = element + 1 //4
+    array.push(element) //0x01
+}
+
+const array = aB
+array.push(4)
