@@ -29,3 +29,12 @@ let employee = {
 
 console.log(employee.address.city)
 console.log(employee.hobbies[1])
+
+// Book Object
+const book ={
+    title: "The JavaScript",
+    author: {
+        name: "Master Kin",
+        age: 27
+    }
+}
