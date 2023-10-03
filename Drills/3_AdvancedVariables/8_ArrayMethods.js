@@ -50,3 +50,31 @@ const items = [
 
 const value = items.map(item => item)
 console.log(value)
+
+
+
+const Teachers = [
+	{
+		name: 'saritha',
+		subject: 'Maths'
+	},
+	{
+		name: 'ahim',
+		subject: 'science'
+	},
+	{
+		name: 'sneha',
+		subject: 'Social'
+	}]
+
+Teachers.forEach(teacher => {
+	for (let value in teacher) {
+		console.log(`${teacher[value]}`)
+	}
+})
+
+const arr = [{ x:1 }, { x: 2 }, { x: 3 }];
+
+arr.forEach((element, index, array) => {
+	console.log(element.x);
+});
