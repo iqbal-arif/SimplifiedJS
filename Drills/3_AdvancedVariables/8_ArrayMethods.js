@@ -39,7 +39,7 @@ const sumNumber = a.reduce((sum,number) => {
 console.log(sumNumber)
 
 // Another examplex of reduce
-
+// Drill
 const items = [
     {price:10},
     {price:20},
@@ -47,17 +47,27 @@ const items = [
     {price:1},
     {price:6},
 ]
-const itemTotal = items.forEach((element, index, array) => {
-	console.log(element.x);
-});
-
-console.log(itemTotal)
-
+// map lists each item individually
 const value = items.map(item => item)
 console.log(value)
 
+//  forEach lists each item one by one
+const itemTotal = items.forEach((element, index, array) => {
+	console.log(element.price);
+});
+
+// reduce sums all the values to a single number
+const sumItem = items.reduce((sum,value) => {
+    return sum + value.price
+},0)
+
+console.log(sumItem)
 
 
+
+
+// Another example of Array of Objects value retrival
+// Method One through forEach & for in
 const Teachers = [
 	{
 		name: 'saritha',
@@ -78,6 +88,8 @@ Teachers.forEach(teacher => {
 	}
 })
 
+// Another example of Array of Objects value retrival
+// Method Two through forEach with object.value method
 const arr = [{ x:1 }, { x: 2 }, { x: 3 }];
 
 arr.forEach((element, index, array) => {
