@@ -31,3 +31,10 @@ class Employee {
 const employee = new Employee("Kyle", 27)
 console.log(employee)
 employee.printName()
+
+// Usecase
+
+const date = new Date()
+console.log(date.getDate)
+console.log(date.getMonth)
+console.log(date.getDay)
