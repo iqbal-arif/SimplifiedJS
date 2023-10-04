@@ -23,7 +23,11 @@ class Employee {
         this.age = age
         this.human = true
     }
+    printName(){
+       return(this.name)
+    }
 }
 
 const employee = new Employee("Kyle", 27)
 console.log(employee)
+employee.printName()
