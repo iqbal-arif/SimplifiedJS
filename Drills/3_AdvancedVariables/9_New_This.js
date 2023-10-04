@@ -17,7 +17,7 @@ const user = new User("Sally", 23)
 console.log(user)
 
 // Class Method for User Creation
-class User {
+class Employee {
     constructor(name,age){
         this.name = name
         this.age = age
@@ -25,5 +25,5 @@ class User {
     }
 }
 
-const employee = new User("Kyle", 27)
+const employee = new Employee("Kyle", 27)
 console.log(employee)
