@@ -95,3 +95,11 @@ const arr = [{ x:1 }, { x: 2 }, { x: 3 }];
 arr.forEach((element, index, array) => {
 	console.log(element.x);
 });
+
+
+// includes method to get boolean value
+
+const valueIncluded = [1,2,3,4,5,6,7]
+
+const isValueIncluded = valueIncluded.includes(5)
+console.log(isValueIncluded)
