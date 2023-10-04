@@ -103,3 +103,16 @@ const valueIncluded = [1,2,3,4,5,6,7]
 
 const isValueIncluded = valueIncluded.includes(5)
 console.log(isValueIncluded)
+
+
+
+/*
+forEach - loops through each value to perform action
+map - perform operation on each value and give new array
+filter - exclude the value
+find - finds first matching value
+some - boolean
+every - boolean
+reduce -  single value
+includes - boolean
+*/
