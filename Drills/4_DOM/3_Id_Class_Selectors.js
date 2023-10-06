@@ -13,3 +13,6 @@ const divWithClass = document.getElementsByClassName("div-class")
 const divWithClassArray = Array.from(divWithClass)
 
 divWithClass.forEach(div.style.color="green");
+
+// MOdifying one of the Class element
+divWithClass[0].style.color="yellow"
