@@ -6,3 +6,4 @@ console.log(dataAttributeElement)
 
 // Selecting the first element in class attribute
 const divWithClasses = document.querySelector('.div-class')
+
