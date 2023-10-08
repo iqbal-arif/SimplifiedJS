@@ -23,3 +23,6 @@ console.log(divWithClassesAll)
 const divWithClassesAllToArray = Array.from(divWithClassesAll)
 
 divWithClassesAllToArray.map(div => div.style.color = "purple")
+
+// Selecting Input Element
+cosnt input = document.querySelector("input")
