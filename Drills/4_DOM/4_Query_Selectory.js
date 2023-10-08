@@ -29,3 +29,6 @@ const input = document.querySelector("input")
 
 // Selecting Input Element with type Text
 const inputTyeText = document.querySelector("input[type='text']")
+
+// Selecting Input Element with type Text
+const inputTyeTextInBodytag = document.querySelector("body > input[type='text']")
