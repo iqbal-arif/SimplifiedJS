@@ -15,4 +15,9 @@ const divWithClassesAll = document.querySelectorAll(".div-class")
 divWithClassesAll.forEach(div => (div.style.color = "red"))
 console.log(divWithClassesAll)
 
-// divWithClassesAll.map DOES NOT WORK
+// divWithClassesAll.map DOES NOT WORK since it is not considered as an array functoin
+// Therefore convert it to an array
+
+const divWithClassesAllToArray = Array.from(divWithClassesAll)
+
+divWithClassesAllToArray.map(div => div.style.color = "purple")
