@@ -11,5 +11,8 @@ const divWithClasses = document.querySelector('.div-class')
 const divWithClassesAll = document.querySelectorAll(".div-class")
 
 // Apply style to all Node elements that are listed in array form
+
 divWithClassesAll.forEach(div => (div.style.color = "red"))
 console.log(divWithClassesAll)
+
+// divWithClassesAll.map DOES NOT WORK
