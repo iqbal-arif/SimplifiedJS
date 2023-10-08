@@ -4,6 +4,8 @@ const dataAttributeElement = document.querySelector('[data-test')
 
 console.log(dataAttributeElement)
 
+// Applying Style to dataAttirbuteElement
+dataAttributeElement.style.color = "green"
 // Selecting the first element in class attribute
 const divWithClasses = document.querySelector('.div-class')
 
