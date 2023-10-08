@@ -10,4 +10,6 @@ const divWithClasses = document.querySelector('.div-class')
 //  Selecting Array of class through QuerySelectorAll 
 const divWithClassesAll = document.querySelectorAll(".div-class")
 
-// Appl
+// Apply style to all Node elements that are listed in array form
+divWithClassesAll.forEach(div => (div.style.color = "red"))
+console.log(divWithClassesAll)
