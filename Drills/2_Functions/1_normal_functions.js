@@ -43,3 +43,11 @@ function sayHitoMe(name){
 
 let result = sayHitoMe("Kyle")
 console.log(result)
+
+
+// Returning Multiple values as an object or array
+function getData(){
+   return ["Array", 4]
+}
+
+let [typeVariable, form] = getData()

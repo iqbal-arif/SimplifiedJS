@@ -116,3 +116,10 @@ every - boolean
 reduce -  single value
 includes - boolean
 */
+
+// for loop to access Array
+const list = [1,2,3,4,5]
+
+for (const value of list) {
+  console.log (value)
+}
