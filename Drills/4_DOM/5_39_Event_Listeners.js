@@ -4,9 +4,7 @@ function printClick(){
     console.log("clicked")
 }
 
-btn.addEventListener("click",()=>{
-    console.log("Clicked")
-})
+btn.addEventListener("click",printClick)
 btn.removeEventListener("click",()=>{
     console.log("Removed Clicked")
 })
