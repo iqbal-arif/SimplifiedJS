@@ -1,1 +1,1 @@
-const
+const btn = document.querySelector('[data-btn')
