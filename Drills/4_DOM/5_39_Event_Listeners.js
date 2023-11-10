@@ -22,3 +22,5 @@ input.addEventListener('change', ()=>{console.log("changed")})
 // EventListener "INPUT" takes input and takes every character
 input.addEventListener('input', e=>{console.log(e.target.value === '')})
 const form = document.querySelector('[data-form]')
+
+form.addEventListener('submit', e => {console.log("submitted form")})
