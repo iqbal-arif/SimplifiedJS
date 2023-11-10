@@ -23,4 +23,6 @@ input.addEventListener('change', ()=>{console.log("changed")})
 input.addEventListener('input', e=>{console.log(e.target.value === '')})
 const form = document.querySelector('[data-form]')
 
-form.addEventListener('submit', e => {console.log("submitted form")})
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    console.log("submitted form")})
