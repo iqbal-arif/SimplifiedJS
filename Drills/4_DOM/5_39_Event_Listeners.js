@@ -15,3 +15,7 @@ btn.removeEventListener("click",printClick)
 // Accessing Event Object
 btn.addEventListener("click", e => {console.log(e)})
 
+// Selecting the data in input field
+const input = document.querySelector('[data-input-text]')
+
+input.addEventListener('change', ()=>{console.log("changed")})
