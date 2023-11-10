@@ -11,3 +11,6 @@ btn.addEventListener("click",printClick)
 btn.removeEventListener("click",printClick)
 
 // Event Object
+
+// Accessing Event Object
+btn.addEventListener("click", e => {console.log(e)})
