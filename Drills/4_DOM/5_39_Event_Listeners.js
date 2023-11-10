@@ -4,7 +4,10 @@ function printClick(){
     console.log("clicked")
 }
 
+// Adding EVENTLISTENER Passing printClick reference to the function
 btn.addEventListener("click",printClick)
-btn.removeEventListener("click",()=>{
-    console.log("Removed Clicked")
-})
+
+// Removing EVENTLISTENER Passing printClick reference to the function
+btn.removeEventListener("click",printClick)
+
+// Event Object
