@@ -30,3 +30,8 @@ form.addEventListener('submit', e => {
     console.log("submitted form")})
 
 const pageAnchor = document.querySelector('[data-anchor')
+
+pageAnchor.addEventListener("click", e =>{
+    e.preventDefault()
+    console.log("Go to DUCKDUCKGO")
+})
