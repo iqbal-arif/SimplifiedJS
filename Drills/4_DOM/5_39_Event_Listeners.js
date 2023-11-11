@@ -41,3 +41,7 @@ pageAnchor.addEventListener("click", e =>{
 // mouseover
 // focus works better with tab keys
 // blur moves out of focus with tab keys
+
+// Resize Window Event
+
+window.addEventListener("resize", () => console.log("resized"))
