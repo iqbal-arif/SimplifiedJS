@@ -24,5 +24,9 @@ input.addEventListener('input', e=>{console.log(e.target.value === '')})
 const form = document.querySelector('[data-form]')
 
 form.addEventListener('submit', e => {
+    // Prevent the default behaviour
+
     e.preventDefault()
     console.log("submitted form")})
+
+const pageAnchor = document.querySelector('[data-anchor')
