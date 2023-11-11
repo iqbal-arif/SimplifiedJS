@@ -35,3 +35,9 @@ pageAnchor.addEventListener("click", e =>{
     e.preventDefault()
     console.log("Go to DUCKDUCKGO")
 })
+
+// mouseenter
+// mouseleave
+// mouseover
+// focus works better with tab keys
+// blur moves out of focus with tab keys
