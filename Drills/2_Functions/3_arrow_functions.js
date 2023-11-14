@@ -30,3 +30,6 @@ displayNum(10, function(number){
 
 // Rewriting above as an Arrow function
 displayNum(10, number => console.log(number))
+
+// Display Name
+displayName(Joe,  personName => console.log(personName))
