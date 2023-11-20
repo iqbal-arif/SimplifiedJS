@@ -8,34 +8,48 @@
     <style>
       #modal {
         display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-family: sans-serif;
         border: 0.05rem solid blue;
         text-align: center;
-        width: 25%;
+        /* width: 25%; */
         padding: 0.5rem 0.5rem;
-        margin: 0.5rem auto;
+        /* margin: 0.5rem auto; */
         border-radius: 0.5rem;
+        background-color: antiquewhite;
       }
       #modal.open {
         display: block;
       }
 
+      #overlay {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(211, 211, 208);
+      }
+
       #overlay.open {
         display: block;
-        background-color: rgb(145, 145, 143);
       }
+
       button {
         border-radius: 0.5rem;
       }
     </style>
   </head>
-  <body>
-    <div id="overlay">
-      <button id="open-modal-btn">Open Modal</button>
-      <div id="modal">
-        <h3>This is a modal</h3>
-        <button id="close-modal-btn">Close Modal</button>
-      </div>
+  <body id="bg">
+    <button id="open-modal-btn">Open Modal</button>
+    <div id="overlay"></div>
+    <div id="modal">
+      <h3>This is a modal</h3>
+      <button id="close-modal-btn">Close Modal</button>
     </div>
   </body>
 </html>
