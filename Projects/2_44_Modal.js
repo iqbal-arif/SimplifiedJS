@@ -1,9 +1,22 @@
 const openModal = document.querySelector('#open-modal-btn');
 const overlayLayer = document.querySelector('#overlay');
 const modalLayer = document.querySelector('#modal');
-console.log(openModal);
+const closeModal = document.querySelector('#close-modal-btn');
+// const bodyLayer = document.getElementsByTagName('body');
+// console.log(bodyLayer);
+
 openModal.addEventListener('click', () => {
   overlayLayer.classList.add('open');
   modalLayer.classList.add('open');
   console.log('clicked');
+});
+
+closeModal.addEventListener('click', () => {
+  overlayLayer.classList.remove('open');
+  modalLayer.classList.remove('open');
+});
+
+overlayLayer.addEventListener('click', () => {
+  overlayLayer.classList.remove('open');
+  modalLayer.classList.remove('open');
 });
