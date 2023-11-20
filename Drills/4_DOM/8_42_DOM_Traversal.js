@@ -30,3 +30,20 @@ guardianOne.style.color = 'navy';
 // Selecting GrandParent through Parent
 grandGuardian = guardianOne.parentElement;
 grandGuardian.style.color = 'maroon';
+
+// Selecting the Grand Parent through Child
+const parentThruChild = kidOne.closest('.grand-parent');
+parentThruChild.style.color = 'magenta';
+
+// The Closest method picks the closest element in tree
+const closestElement = kidOne.closest('.closest');
+
+closestElement.style.color = 'yellow';
+
+// Selecting & Modifying all Children thru Grand Parent
+const allChildren = grandParent.querySelectorAll('.child');
+console.log(allChildren);
+
+allChildren.forEach((child) => {
+  child.style.color = 'red';
+});
