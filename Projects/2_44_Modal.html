@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="2_44_Modal.js"></script>
+    <script src="2_44_Modal.js" defer></script>
     <title>Modal</title>
     <style>
       #modal {
-        display: block;
+        display: none;
         font-family: sans-serif;
         border: 0.05rem solid blue;
         text-align: center;
@@ -20,7 +20,7 @@
         display: block;
       }
 
-      #overlay {
+      #overlay.open {
         display: block;
         background-color: rgb(145, 145, 143);
       }
