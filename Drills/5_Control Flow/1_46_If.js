@@ -34,4 +34,8 @@ if (ifArrayExample === null) {
   console.log('Empty Array');
 } else if (arrayLength < 5) {
   console.log('Small');
+} else if (arrayLength < 10) {
+  console.log('Medium');
+} else {
+  console.log('Large');
 }
