@@ -12,3 +12,15 @@ if (userIsLoggedIn) {
 //4. Empty String: " "; this is also false, code does't run.
 // 5. Null :  is also false
 // 6. Undefined :  is also false
+
+// Examples of Zero , Null, undefined
+
+const totalPrice = 0;
+// const totalPrice = null;
+// const totalPrice = undefined;
+
+if (totalPrice != null) {
+  console.log('true');
+} else {
+  console.log('false');
+}
