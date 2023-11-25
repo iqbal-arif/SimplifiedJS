@@ -24,3 +24,14 @@ if (totalPrice != null) {
 } else {
   console.log('false');
 }
+
+// If & else If Practice
+
+const ifArrayExample = ['this', 'is', 'an', 'Array'];
+const arrayLength = ifArrayExample.length;
+
+if (ifArrayExample === null) {
+  console.log('Empty Array');
+} else if (arrayLength < 5) {
+  console.log('Small');
+}
