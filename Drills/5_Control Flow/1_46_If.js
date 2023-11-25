@@ -29,8 +29,9 @@ if (totalPrice != null) {
 
 const ifArrayExample = ['this', 'is', 'an', 'Array'];
 const arrayLength = ifArrayExample.length;
+// NOTE : To check for NULL & UNDEFINED, use == and not ===. Otherwise it won't run.
 
-if (ifArrayExample === null) {
+if (ifArrayExample == null) {
   console.log('Empty Array');
 } else if (arrayLength < 5) {
   console.log('Small');
