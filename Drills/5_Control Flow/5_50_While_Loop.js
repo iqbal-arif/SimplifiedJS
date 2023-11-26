@@ -12,5 +12,6 @@ let firstPerson =person
 
 while (firstPerson != null){
     console.log(firstPerson.name)
+    if (firstPerson.name === 'Joey') break
     firstPerson = firstPerson.friend
 }
