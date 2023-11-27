@@ -1,3 +1,12 @@
+//Recursive Function
+//
+let sum = 0;
+for (let i = 1; i <= 10; i++) {
+  sum = sum + i;
+}
+
+console.log(sum);
+
 /*https://www.programiz.com/javascript/recursion
 
 Recursion is a process of calling itself. A function that calls itself is called a recursive function.
