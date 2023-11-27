@@ -13,7 +13,7 @@ Recursion is a process of calling itself. A function that calls itself is called
 
 */
 // The syntax for recursive function is:
-
+/*
 function recurse() {
   // function code
   recurse();
@@ -21,6 +21,7 @@ function recurse() {
 }
 
 recurse();
+*/
 /*
 Here, the recurse() function is a recursive function. It is calling itself inside the function.
 Working of recursion in JavaScript
@@ -31,6 +32,7 @@ To prevent infinite recursion, you can use if...else statement (or similar appro
 
 So, it generally looks like this.
 */
+/*
 function recurse() {
   if (condition) {
     recurse();
@@ -40,6 +42,7 @@ function recurse() {
 }
 
 recurse();
+*/
 /*
 A simple example of a recursive function would be to count down the value to 1.
 */
