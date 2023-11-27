@@ -15,6 +15,33 @@ function sumNumbersBelow(number) {
 }
 
 console.log(sumNumbersBelow(10));
+
+//Person Name Recursion
+
+const person = {
+  name: 'Arif',
+  friend: {
+    name: 'Joey',
+    friend: {
+      name: 'Iqbal',
+    },
+  },
+};
+
+let firstPerson = person;
+
+while (firstPerson != null) {
+  console.log(firstPerson.name);
+  firstPerson = firstPerson.friend;
+}
+
+function printNames(person) {
+  let currentPerson = person;
+
+  currentPerson = printNames(currentPerson.friend);
+}
+printNames(person);
+
 /*https://www.programiz.com/javascript/recursion
 
 Recursion is a process of calling itself. A function that calls itself is called a recursive function.
