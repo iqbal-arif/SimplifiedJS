@@ -1,5 +1,5 @@
 //Recursive Function
-//
+// Count down with for loop
 let sum = 0;
 for (let i = 1; i <= 10; i++) {
   sum = sum + i;
@@ -7,6 +7,14 @@ for (let i = 1; i <= 10; i++) {
 
 console.log(sum);
 
+// Count down with Recursive
+
+function sumNumbersBelow(number) {
+  if (number <= 0) return 0;
+  return number + sumNumbersBelow(number - 1);
+}
+
+console.log(sumNumbersBelow(10));
 /*https://www.programiz.com/javascript/recursion
 
 Recursion is a process of calling itself. A function that calls itself is called a recursive function.
