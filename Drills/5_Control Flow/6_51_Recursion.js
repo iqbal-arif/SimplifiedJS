@@ -35,10 +35,11 @@ while (firstPerson != null) {
   firstPerson = firstPerson.friend;
 }
 
-function printNames(person) {
-  let currentPerson = person;
-
-  currentPerson = printNames(currentPerson.friend);
+let currentPerson = person;
+function printNames(currentPerson) {
+  if (currentPerson == null) return;
+  console.log(currentPerson.name);
+  printNames(currentPerson.friend);
 }
 printNames(person);
 
